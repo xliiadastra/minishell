@@ -3,10 +3,10 @@
 #                                                         :::      ::::::::    #
 #    Makefile                                           :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
-#    By: sumsong <sumsong@student.42seoul.kr>       +#+  +:+       +#+         #
+#    By: yichoi <yichoi@student.42seoul.kr>       +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
-#    Created: 2022/10/04 16:29:58 by sumsong           #+#    #+#              #
-#    Updated: 2022/10/04 16:31:28 by sumsong          ###   ########.fr        #
+#    Created: 2022/10/04 16:29:58 by yichoi           #+#    #+#              #
+#    Updated: 2022/10/04 16:31:28 by yichoi          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -15,8 +15,8 @@ CC 			=	gcc
 CCFLAGS		=	-Wall -Wextra -Werror -g
 CCFLAGS_G	=	-Wall -Wextra -Werror -g
 SANITIZER	=	-fsanitize=address
-IREADLINE	=	-I/Users/sumsong/.brew/opt/readline/include
-LREADLINE	=	-L/Users/sumsong/.brew/opt/readline/lib
+IREADLINE	=	-I/Users/yichoi/.brew/opt/readline/include
+LREADLINE	=	-L/Users/yichoi/.brew/opt/readline/lib
 RM			=	rm -f
 
 SRC_DIR		=	./srcs/
